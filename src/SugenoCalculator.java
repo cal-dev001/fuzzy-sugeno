@@ -47,9 +47,9 @@ public class SugenoCalculator {
      * Method pembantu untuk mengonversi hasil angka menjadi Kategori String di GUI
      */
     public static String tentukanKategori(double nilai) {
-        if (nilai < 50.0) {
+        if (nilai < 59.0) {
             return "Kurang";
-        } else if (nilai >= 50.0 && nilai < 80.0) {
+        } else if (nilai >= 60.0 && nilai < 80.0) {
             return "Baik";
         } else {
             return "Sangat Baik";
